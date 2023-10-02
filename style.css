@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-font-family: 'American Typewriter', 'Times New Roman', Times, serif;
+    --size-font-size: 40px;
+    --editorial-color: rgb(70 173 241);
+    --goals-color: rgb(156 114 228);
+    --recruiting-color: rgb(100 192 169);
+    --mobile-color: rgb(242 158 51);
+    --website-color: rgb(215 99 161);
+    --sales-color: rgb(176 201 37);
+    --backgrond-background-color: rgb(240 248 249)
+}
+
+body {
+    background-color: var(--backgrond-background-color);
+}
+
+.toboolist {
+    height: 100px;
+    background-color: white;
+    padding: 20px;
+}
+
+.logo {
+    height: 70px;
+}
+
+.titolo {
+    font-family: var(--text-font-family);
+    font-size: var(--size-font-size);
+    vertical-align: text-bottom;
+    color: rgb(5 24 49);
+}
+
+#button {
+    background-color: white;
+    width: 900px;
+    height: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.addtask {
+    background-color: var(--editorial-color);
+    width: 85px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: darkblue;
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: 18px;
+}
+
+.addsection {
+    width: 110px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 880px;
+    height: 2px;
+    background-color: lightgray;
+    border: none;
+
+}
+
+.new {
+    margin-left: 60px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Arial Rounded MT Bold', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+
+.check {
+    margin-left: 30px;
+}
+
+.cross {
+    margin-left: 30px;
+}
+
+.editorial {
+    background-color: var(--editorial-color);
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 50px;
+    opacity: 0.9;
+}
+
+.goals {
+    background-color: var(--goals-color);
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 50px;
+    opacity: 0.9;
+}
+
+.recruiting {
+    background-color: var(--recruiting-color);
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 50px;
+    opacity: 0.9;
+}
+
+.mobile {
+    background-color: var(--mobile-color);
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 50px;
+    opacity: 0.9;
+}
+
+.website {
+    background-color: var(--website-color);
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 50px;
+    opacity: 0.9;
+}
+
+.sales {
+    background-color: var(--sales-color);
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 50px;
+    opacity: 0.9;
+}

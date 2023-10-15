@@ -23,17 +23,19 @@ body {
 .toboolist {
     height: 100px;
     background-color: white;
-    padding: 20px;
+    padding-left: 20px;
 }
 
 .logo {
     height: 70px;
+    vertical-align: middle;
 }
 
 .titolo {
     font-family: var(--text-font-family);
     font-size: var(--size-font-size);
-    vertical-align: text-bottom;
+    vertical-align: middle;
+    line-height: 100px;
     color: rgb(5 24 49);
 }
 
@@ -92,6 +94,14 @@ h1 {
 
 .check {
     margin-left: 30px;
+    border: 1px solid black;
+    aspect-ratio: 1;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    display: inline-block;
 }
 
 .cross {

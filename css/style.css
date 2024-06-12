@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(225, 225, 225);
+}
+
+.top-page {
+    background-color: white;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+   
+}

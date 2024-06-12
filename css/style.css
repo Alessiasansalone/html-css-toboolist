@@ -36,3 +36,45 @@ body {
 .container-2 {
     margin-top: 2px;
 }
+
+.category {
+    margin-top: 20px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list-title {
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border:  1px solid green ;
+    border-radius: 50%;
+    color: green;
+    padding-left: 3px;
+}
+
+.list-item {
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.label {
+    padding: 3px 8px;
+    border-radius: 40px;
+}
+
+.blue-label {
+    background-color: rgb(20, 170, 245);
+}

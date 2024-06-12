@@ -51,6 +51,10 @@ body {
     font-size: 25px;
 }
 
+.padding-top {
+    padding-top: 15px;
+}
+
 .inline-block {
     display: inline-block;
 }
@@ -58,23 +62,44 @@ body {
 .circle {
     width: 20px;
     height: 20px;
-    border:  1px solid green ;
     border-radius: 50%;
+}
+
+.check {
     color: green;
+    border:  1px solid green;
     padding-left: 3px;
 }
 
-.list-item {
+.list-item-font {
     font-family: "Playfair Display", serif;
     font-size: 16px;
-    padding-top: 5px;
 }
 
 .label {
-    padding: 3px 8px;
+    color: white;
+    padding: 3px 20px;
     border-radius: 40px;
 }
 
 .blue-label {
     background-color: rgb(20, 170, 245);
+}
+
+.violet-label {
+    background-color: rgb(171, 93, 230);
+}
+
+.cross {
+    color: red;
+    border:  1px solid red;
+    padding-left: 4px;
+}
+
+.water-blue-label {
+    background-color: rgb(44, 198, 171);
+}
+
+.orange-label {
+    background-color: rgb(255, 155, 0);
 }

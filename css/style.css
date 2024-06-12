@@ -19,6 +19,20 @@ body {
 .container {
     background-color: white;
     max-width: 800px;
-    margin: 0 auto;
-   
+    margin: 0 auto;  
+    padding: 10px 20px; 
+}
+
+.bt-add {
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 10%;
+}
+
+.task {
+    background-color: rgb(20, 170, 245);
+}
+
+.container-2 {
+    margin-top: 2px;
 }
